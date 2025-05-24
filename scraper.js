@@ -74,7 +74,7 @@ async function scrapePage(page, url) {
     const links = $('a[href]')
       .map((_, el) => el.attribs.href)
       .get()
-      .filter(href => href.startsWith('/en') && !href.includes('#'));
+      .filter(href => href.startsWith('/') && !href.includes('#'));
 
     for (const link of links) {
       const nextUrl = new URL(link, baseUrl).href;
