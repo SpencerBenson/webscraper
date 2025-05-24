@@ -1,6 +1,6 @@
 ﻿# webscraper
 
- ##STEPS
+ ## STEPS/ INSTRUCTIONS
  1. Clone the repo
  2. run `npm i` // to download dependencies
  3. Edit the name of the site you want to scrape `baseURL`
